@@ -1,0 +1,23 @@
+{
+  "name": "evernote-web-client",
+  "version": "1.0.0",
+  "description": "Evernote web client, Allow you create notebooks and notes",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build --linux snap"
+  },
+  "keywords": [
+    "Evernote",
+    "Evernote web clent",
+    "Notebook",
+    "Notes"
+  ],
+  "author": "Udit Rawat",
+  "license": "CC0 1.0 Universal",
+  "devDependencies": {
+    "electron": "^4.0.1",
+    "electron-builder": "^20.38.4",
+    "electron-packager": "^13.0.1"
+  }
+}
